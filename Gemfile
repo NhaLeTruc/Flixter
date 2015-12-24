@@ -23,10 +23,7 @@ gem 'geocoder'
 gem 'figaro', '>= 1.0.0'
 gem 'carrierwave'
 gem 'carrierwave-aws'
-<<<<<<< HEAD
 # gem 'fog', '~> 1.3.1'
-=======
->>>>>>> 20908a13a00954d921c36e59370e87b25a309728
 gem 'factory_girl_rails', '~> 4.0'
 gem 'mini_magick', '~> 4.3.1'
 

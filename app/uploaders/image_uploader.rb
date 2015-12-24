@@ -8,13 +8,13 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   # Choose what kind of storage to use for this uploader:
   # storage :file
-<<<<<<< HEAD
+# <<<<<<< HEAD
   # storage :fog
   storage :aws
-=======
-  storage :aws
+# =======
+#   storage :aws
 
->>>>>>> 20908a13a00954d921c36e59370e87b25a309728
+# >>>>>>> 20908a13a00954d921c36e59370e87b25a309728
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
@@ -32,10 +32,6 @@ class ImageUploader < CarrierWave::Uploader::Base
   # Process files as they are uploaded:
   # process :scale => [200, 300]
   process :resize_to_fill => [800, 350]
-<<<<<<< HEAD
-=======
-  #
->>>>>>> 20908a13a00954d921c36e59370e87b25a309728
   # def scale(width, height)
   #   # do something
   # end
