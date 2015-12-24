@@ -23,7 +23,10 @@ gem 'geocoder'
 gem 'figaro', '>= 1.0.0'
 gem 'carrierwave'
 gem 'carrierwave-aws'
+<<<<<<< HEAD
 # gem 'fog', '~> 1.3.1'
+=======
+>>>>>>> 20908a13a00954d921c36e59370e87b25a309728
 gem 'factory_girl_rails', '~> 4.0'
 gem 'mini_magick', '~> 4.3.1'
 
@@ -34,7 +37,7 @@ gem 'mini_magick', '~> 4.3.1'
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'

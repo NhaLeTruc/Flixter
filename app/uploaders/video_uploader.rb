@@ -8,8 +8,13 @@ class VideoUploader < CarrierWave::Uploader::Base
 
   # Choose what kind of storage to use for this uploader:
   # storage :file
+<<<<<<< HEAD
   # storage :fog
   storage :aws
+=======
+  storage :aws
+
+>>>>>>> 20908a13a00954d921c36e59370e87b25a309728
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
