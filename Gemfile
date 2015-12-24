@@ -24,6 +24,7 @@ gem 'figaro', '>= 1.0.0'
 gem 'carrierwave'
 gem 'fog', '~> 1.3.1'
 gem 'factory_girl_rails', '~> 4.0'
+gem 'mini_magick', '~> 4.3.1'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
