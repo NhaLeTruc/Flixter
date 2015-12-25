@@ -27,6 +27,7 @@ gem 'carrierwave-aws'
 gem 'factory_girl_rails', '~> 4.0'
 gem 'mini_magick', '~> 4.3.1'
 gem 'stripe'
+gem 'ranked-model'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
